@@ -196,5 +196,36 @@ const Hello = (props) => {
 //利用useState进行状态管理
 import {useState} from 'react';
 const[count, setCount] = useState(0);
+
+```
+
+- 事件处理
+
+> 在React中，当用户与组件进行交互时，交互可以通过事件进行捕获，事件上注册处理函数，执行特定操作
+>
+> 事件处理器本质上也是一个JS函数
+>
+> 当组件状态发生变更时，将触发组件的重绘
+
+```jsx
+import React, { useState } from 'react';
+
+function App(){
+    const [count, setCount] = useState(0);
+    
+    const handleClick = () => {
+        setCount(count + 1);
+    }
+	
+    return (
+    	<div className="card">
+			<p>You have clicked {count} times</p>
+            <buttton onClick={handleClick}>
+    		count is {count}
+    	</buttton>
+		</div>
+    )
+}
+
 ```
 
