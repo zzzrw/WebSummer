@@ -16,9 +16,13 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
-            <div className="card">
+            <div className="card" >
                 <button
-                    onClick={() => setCount((count) => count + 1)}>
+                    onClick={() => setCount((count) => count + 1)}
+                    style={{
+                        animation: `logo-spin ${Math.max(60 - count, 1)}s linear infinite`,
+                    }}
+                >
                     count is {count}
                 </button>
                 <p>

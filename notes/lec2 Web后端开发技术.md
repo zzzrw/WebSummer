@@ -8,7 +8,7 @@
 >
 > 服务端暴露给客户端的接口是统一的
 
-![image-20240721101914797](C:\Users\17568\AppData\Roaming\Typora\typora-user-images\image-20240721101914797.png)
+![image-20240721101914797](E:\WebSummer\notes\img\image-20240721101914797.png)
 
 ### 分布式架构
 
@@ -16,19 +16,19 @@
 >
 > 客户端可以通过代理或其他中介服务来对多个服务器端进行通信
 
-![image-20240721102302329](C:\Users\17568\AppData\Roaming\Typora\typora-user-images\image-20240721102302329.png)
+![image-20240721102302329](E:\WebSummer\notes\img\image-20240721102302329.png)
 
 ### 微服务架构
 
 > 客户端可能需要访问多个不同服务节点，每个独立的服务器处理一个或多个服务，通过API网关聚合请求，向服务器端访问
 
-![image-20240721102929799](C:\Users\17568\AppData\Roaming\Typora\typora-user-images\image-20240721102929799.png)
+![image-20240721102929799](E:\WebSummer\notes\img\image-20240721102929799.png)
 
 ### Serverless(无服务架构)
 
 > 开发者只需要编写和部署应用功能代码，不需要管理维护底层基础设施，依赖于云服务器提供商进行托管服务
 
-![image-20240721103249809](C:\Users\17568\AppData\Roaming\Typora\typora-user-images\image-20240721103249809.png)
+![image-20240721103249809](E:\WebSummer\notes\img\image-20240721103249809.png)
 
 ## TypeScript
 

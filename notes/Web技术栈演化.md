@@ -6,7 +6,7 @@
   - 直接在前端界面运行后端代码
 
 - MVC
-  - ![image-20240719143542713](C:\Users\17568\AppData\Roaming\Typora\typora-user-images\image-20240719143542713.png)
+  - ![image-20240719143542713](E:\WebSummer\notes\img\image-20240719143542713.png)
 - SPA（Single Page Application）
   - 利用AJAX，不需要重新加载界面，而是动态替换内容和局部地更新
 
